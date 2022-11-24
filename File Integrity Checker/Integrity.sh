@@ -37,8 +37,5 @@ fi
 echo "------------------------------------------------------------" >> /var/log/integrity.log
 exit 0
 
-#Could use Logwatch is a program that creates a report by reading logs and historical server data. 
+# Could use Logwatch to reading logs
 # Maybe Point it to the integrity.log file and have it email the results to the admin.
-
-
-
